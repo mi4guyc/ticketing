@@ -1,0 +1,1 @@
+docker build -t mi4guyc/auth .

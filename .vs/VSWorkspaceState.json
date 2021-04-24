@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\orders",
+    "\\orders\\src",
+    "\\orders\\src\\routes",
+    "\\tickets",
+    "\\tickets\\src",
+    "\\tickets\\src\\events",
+    "\\tickets\\src\\events\\listeners"
+  ],
+  "SelectedNode": "\\tickets",
+  "PreviewInSolutionExplorer": false
+}
