@@ -24,7 +24,7 @@ app.use(
     // Disable this line for testing with http:
     // secure: process.env.NODE_ENV != "test",
     //      secure: true,
-    //  *** BAD BAD BAD Turning off TLS ***
+    //  *** BAD BAD BAD Turning off TLS *** for Digital Ocean
     secure: false,
   })
 );
