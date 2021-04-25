@@ -12,8 +12,8 @@ const SignIn = () => {
       email,
       password,
     },
-    //   onSuccess: () => Router.push("/"),
-    onSuccess: () => (window.location = "https://ticketing.dev/"),
+    onSuccess: () => Router.push("/"),
+    // onSuccess: () => (window.location = "https://ticketing.dev/"),
   });
 
   const onSubmit = async (event) => {
