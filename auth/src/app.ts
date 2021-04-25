@@ -21,8 +21,11 @@ app.use(json());
 app.use(
   cookieSession({
     signed: false,
-    secure: process.env.NODE_ENV != "test",
+    // Disable this line for testing with http:
+    // secure: process.env.NODE_ENV != "test",
     //      secure: true,
+    //  *** BAD BAD BAD Turning off TLS ***
+    secure: false,
   })
 );
 
